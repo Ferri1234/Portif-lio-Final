@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+
+</head>
+
+
+<body>
+
+    <header class="container text-center">
+        <img src="img/pedro.jpeg" alt="avatar do Nicolas" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Nicolas</p>
+        <h1>Estudo na escola Berreta</h1>
+        <p>Faço cursinho preparatório para o vestibular
+        </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Css</p>
+            <p class="badge bg-secondary">VrVex</p>
+        </div>
+
+
+
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/p5.PNG" class="card-img-top" alt="Imagem do projeto Java">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto JavaScript</h5>
+                        <p class="card-text">É um projeto feito no site p5js</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/mm.PNG" class="card-img-top" alt="Imagem do projeto Javal">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeto Make Code</h5>
+                        <p class="card-text"></p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final do card -->
+
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/mb.PNG" class="card-img-top" alt="Imagem do projeto MakeCode">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu projeto: MakeCode</h5>
+                        <p class="card-text"> Esse projeto foi inspirado nos slides escolares CMSP que consiste no
+                            desenvolvimento de uma mensagem subliminar por trás de uma figura de led da pecinha
+                            Micro-Bit.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Final do card -->
+        </div>
+
+    </main>
+
+    <!-- Modal1-->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu projeto: JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto foi criado em linguagem JavaScript e tem por finalidade encontrar a bolinha branca
+                        através do cursor do mouse.</p>
+                    <img src="img/p5.PNG" class="img-fluid w-100" alt="Imagem representativa do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001114039020sp/sketches/AsaHL6hln">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/00001114039020sp/sketches/AsaHL6hln">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu projeto MakeCode</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto foi desenvolvido pela plataforma make code e tem por finalidade simular um sensor de
+                        luz.
+                    </p>
+                    <img src="img/mm.PNG" class="img-fluid w-100" alt="Imagem representativa do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://makecode.microbit.org/S85625-43613-32304-27623">Ver projeto ao
+                        vivo</a>
+                    <a href="https://makecode.microbit.org/#editor">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu projeto: MakeCode</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto desenvovlvido no makecode consiste em formar um coração através dos leds da placa
+                        Micro-Bit.</p>
+                    <img src="img/mb.PNG" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://makecode.microbit.org/S84678-11808-16792-24254">Ver projeto ao
+                        vivo</a>
+                    <a href="https://makecode.microbit.org/#editor">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="container py-5">
+        <div>
+            <h2>Fale conosco</h2>
+            <div>
+                <p>Número: 54345-34234
+                </p>
+
+                <i class="bi bi-github"></i>
+                <a href="https://github.com/Ferri1234">GitHub</a>
+                <div>
+
+                    <p class="my-5 text-center">© Copyright 2025. Produzido por Nicolas</p>
+
+                </div>
+    </footer>
+    </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

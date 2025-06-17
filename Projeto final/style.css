@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+:root {
+    --cor-principal: #c01e41;
+    --cor-secundaria: #100d11;
+    --cor-destaque: rgba(187, 21, 123, 0.26);
+}
+
+body {
+    font-family: "Savate", sans-serif;
+    color: rgb(70, 25, 153);
+    background-color: rgb(42, 207, 199);
+}
+
+h1,
+h2,
+h5 {
+    color: var(--cor-destaque);
+    font-weight: 500;
+}
+
+.lea, btn-link {
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+
+
+footer a {
+    color: var(--cor-secundaria)
+}
+
+footer a:hover {
+    color: var(--cor-secundaria);
+}
+
+.card-img-top {
+    height: 200px;
+
+}
